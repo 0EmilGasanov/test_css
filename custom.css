@@ -206,7 +206,7 @@ body {
 /*       Side Bar Buttons (View Profile, Correct Profile Match tp Jobs) */
       #resultscontainer .results .resultitems li .more-information .buttons,
       #stored-resultscontainer .results .resultitems li .more-information .buttons {
-        padding-top: 5px; }
+        padding-top: 3px; }
         #resultscontainer .results .resultitems li .more-information .buttons a,
         #stored-resultscontainer .results .resultitems li .more-information .buttons a {
           background: #f7f7f7;
@@ -278,7 +278,7 @@ div#tabs {
       border: 1px solid #d0d1d5;
       border-bottom: none;
       height: 20px;
-      background: #fafafa; }
+      background: #F5F7F7; }
       div#tabs span.tab.active.fading a:after {
         background: transparent;
         background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #eef7fc 100%);
@@ -314,22 +314,19 @@ div#tabs {
 
 /* Sorting Drop-Down */
 #sorting-container select {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding;
-  background-clip: padding-box; }
+  font-size: 0.875rem;
+  font-family: "72",Arial,Helvetica,sans-serif;
+  line-height: normal; }
 
 /* Sidebar Input Text */
 #sidebar div.row input[type=text], #sidebar div.row.tagcloud-input input[type=text] {
   outline: none;
-  line-height: 16px;
-  border: 1px solid #b5b7bd !important;
-  padding: 2px 3px;
+  line-height: 1.5rem;
+  border: 1px solid #bfbfbf !important;
+  padding: 4px 4px;
   background-color: #FFF;
-  font-family: "Open Sans", sans-serif;
-  font-size: 11px;
+  font-family: "72",Arial,Helvetica,sans-serif;
+  font-size: 0.875rem;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -339,12 +336,13 @@ div#tabs {
 
 /* Sidebar */
 #sidebarWrapper {
+  margin-top:2px;
   background: #F5F7F7;
   padding: 10px;
-  border: 1px solid #d0d1d5;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
+  border: 1px solid #bfbfbf;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
@@ -357,9 +355,9 @@ div#tabs {
   #sidebar > .facet .facetgroup-name,
   #sidebar > .facetgroup .facet-name,
   #sidebar > .facetgroup .facetgroup-name {
-    font-family: "Open Sans", sans-serif;
+    font-family: "72",Arial,Helvetica,sans-serif;
+    font-size: 0.875rem;
     font-weight: 600;
-    font-size: 12px;
     text-shadow: none; }
     #sidebar > .facet .facet-name:hover,
     #sidebar > .facet .facetgroup-name:hover,
@@ -375,9 +373,10 @@ div#tabs {
 #searchbox .outlined {
   outline: none !important; }
 #searchbox .stretchable {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  height: 1.8rem;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box; }
@@ -385,10 +384,10 @@ div#tabs {
 /* Search Tag Container */
 #breadcrumbs-container {
   background: #F5F7F7;
-  border: 1px solid #d0d1d5;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
+  border: 1px solid #bfbfbf;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box; }
@@ -413,14 +412,15 @@ div.breadcrumb-group {
   border-radius: 2px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
-  background-clip: padding-box; }
+  background-clip: padding-box; 
+  background: #91c8f6}
 
 /* Loading Icon */
 #content #spinner {
-  border-color: #009CC1; }
+  border-color: #427cac; }
   #content #spinner:after {
-    border-color: #009CC1;
-    background: #009CC1; }
+    border-color: #427cac;
+    background: #427cac; }
 
 /* Project Tags */
 #content #spqr #active-project {
@@ -428,13 +428,13 @@ div.breadcrumb-group {
   #content #spqr #active-project #actie-project-label {
     padding: 3px 4px;
     font-size: 12px;
-    background: #12bcd0; }
+    background: #427cac; }
 #content #spqr #active-project-icons * {
   height: 18px; }
 /*   Close Tag */
 #content #spqr #active-project-icons #active-project-close {
   background-position: -48px -308px; }
 #content #spqr #active-project-label {
-  background-color: rgba(0, 156, 193, 0.75);
+  background-color: #346187;
   min-height: 14px;
   padding-top: 4px; }
