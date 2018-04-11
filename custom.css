@@ -231,16 +231,10 @@ body {
     #resultscontainer .results .resultitems li .result-header-container .result-header-title,
     #stored-resultscontainer .results .resultitems li .result-header-container .result-header-title {
       font-family: "Open Sans", sans-serif;
-      font-size: 11px; }
+      font-size: 1rem; }
       #resultscontainer .results .resultitems li .result-header-container .result-header-title .highlighted,
       #stored-resultscontainer .results .resultitems li .result-header-container .result-header-title .highlighted {
         font-weight: 600; }
-/*     check if this is displayed at all */
-    #resultscontainer .results .resultitems li .tags .tag,
-    #stored-resultscontainer .results .resultitems li .tags .tag {
-      padding: 4px;
-      font-size: 11px;
-      background: rgba(0, 156, 193, 0.75); }
 
 /* Match Container Tabs  */
 div#tabs {
