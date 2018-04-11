@@ -1,3 +1,8 @@
+a, div.save-search-edit span.help{
+  color: #346187;
+  text-decoration: none;
+}
+
 @import url("//fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,800&v=10.6.0&l=en");
 #header {
   zoom: 1;
@@ -66,7 +71,7 @@ body {
   border: 1px solid #ababab;
   background-color: #f7f7f7;
   font-family: "72",Arial,Helvetica,sans-serif;
-  font-size: font-size: 0.875rem;
+  font-size: 0.875rem;
   text-decoration: none;
   color: #346187;
   -webkit-border-radius: 0.2rem;
@@ -148,14 +153,11 @@ body {
     position: relative; }
     #resultscontainer .results .resultitems li.open,
     #stored-resultscontainer .results .resultitems li.open {
-      background: #eef7fc;
-      -webkit-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.15);
-      -moz-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.15);
-      box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.15);
+      background: #eff4f9;
       z-index: 2; }
     #resultscontainer .results .resultitems li.selected,
     #stored-resultscontainer .results .resultitems li.selected {
-      border-left: 2px solid #d9ecf8; }
+      border-left: 2px solid #eff4f9; }
       #resultscontainer .results .resultitems li.selected .more-information .expanded-metadata-table,
       #stored-resultscontainer .results .resultitems li.selected .more-information .expanded-metadata-table {
         margin-left: 0; }
@@ -163,42 +165,41 @@ body {
 /*     Opened Match Additional Information Container */
     #resultscontainer .results .resultitems li .more-information,
     #stored-resultscontainer .results .resultitems li .more-information {
-      background: #FFF; }
+      background: #fafafa; }
 
 /*       Data Table */
       #resultscontainer .results .resultitems li .more-information .expanded-metadata-table,
       #stored-resultscontainer .results .resultitems li .more-information .expanded-metadata-table {
         padding: 0;
         border-spacing: 0;
-        width: 523px;
+        border: 1px solid #dddddd;
+        width: 525px;
         table-layout: fixed;
         margin-left: 2px; }
         #resultscontainer .results .resultitems li .more-information .expanded-metadata-table .expanded-field-name,
         #resultscontainer .results .resultitems li .more-information .expanded-metadata-table .expanded-field-value,
         #stored-resultscontainer .results .resultitems li .more-information .expanded-metadata-table .expanded-field-name,
         #stored-resultscontainer .results .resultitems li .more-information .expanded-metadata-table .expanded-field-value {
-          border-top: 1px solid #fff;
-          background-color: #eee;
+          border-bottom: 1px solid #ddd;
+          background-color: #ffffff;
           padding: 5px; }
 
 /*          Left Table Column */
         #resultscontainer .results .resultitems li .more-information .expanded-metadata-table .expanded-field-name,
         #stored-resultscontainer .results .resultitems li .more-information .expanded-metadata-table .expanded-field-name {
-          font-family: "Open Sans", sans-serif;
-          font-weight: 600;
-          color: #000;
-          font-size: 11px;
+          font-family: "72",Arial,Helvetica,sans-serif;
+          font-size: 0.8rem;
           font-style: normal;
+          color: #333333;
           text-align: left;
           padding-left: 10px; }
 
 /*           More / Less Text Option */
         #resultscontainer .results .resultitems li .more-information .expanded-metadata-table .expanded-field-value .moreless,
         #stored-resultscontainer .results .resultitems li .more-information .expanded-metadata-table .expanded-field-value .moreless {
-          background: linear-gradient(to right, rgba(238, 238, 238, 0.01) 0, #eeeeee 20%, #eeeeee 100%);
-          font-family: "Open Sans", sans-serif;
-          font-size: 11px;
-          font-weight: 600; }
+          font-family: "72",Arial,Helvetica,sans-serif;
+          font-size: 0.8rem;
+           }
       
 /*       Side Bar Buttons (View Profile, Correct Profile Match tp Jobs) */
       #resultscontainer .results .resultitems li .more-information .buttons,
@@ -206,27 +207,25 @@ body {
         padding-top: 5px; }
         #resultscontainer .results .resultitems li .more-information .buttons a,
         #stored-resultscontainer .results .resultitems li .more-information .buttons a {
-          background: #FFF;
-          line-height: 20px;
-          border: none; }
-          #resultscontainer .results .resultitems li .more-information .buttons a:hover,
-          #stored-resultscontainer .results .resultitems li .more-information .buttons a:hover {
-            border: none; }
+          background: #f7f7f7;
+          border: 1px solid #ababab; }
           #resultscontainer .results .resultitems li .more-information .buttons a .label,
           #stored-resultscontainer .results .resultitems li .more-information .buttons a .label {
-            color: #009fc3;
-            font-family: "Open Sans", sans-serif;
-            font-size: 11px;
-            font-weight: normal; }
-          #resultscontainer .results .resultitems li .more-information .buttons a .button-menu-down,
-          #stored-resultscontainer .results .resultitems li .more-information .buttons a .button-menu-down {
-            background: none; }
-            #resultscontainer .results .resultitems li .more-information .buttons a .button-menu-down:after,
-            #stored-resultscontainer .results .resultitems li .more-information .buttons a .button-menu-down:after {
-              content: '\25BC';
-              position: relative;
-              top: -2px;
-              color: #009fc3; }
+            font-family: "72",Arial,Helvetica,sans-serif;
+            font-size: 0.875rem;
+            text-decoration: none;
+            font-weight: normal;
+            color: #346187; }
+          #resultscontainer .results .resultitems li .more-information .buttons a:hover,
+          #stored-resultscontainer .results .resultitems li .more-information .buttons a:hover {
+            background-color: rgb(235, 235, 235); }
+          #resultscontainer .results .resultitems li .more-information .buttons a:active,
+          #stored-resultscontainer .results .resultitems li .more-information .buttons a:active{
+            border: 1px solid #427cac;
+            background-color: #427cac; }
+          #resultscontainer .results .resultitems li .more-information .buttons a:active .label,
+          #stored-resultscontainer .results .resultitems li .more-information .buttons a:active .label{
+            color: #FFF; }
 
 /*     Opened Match Header */
     #resultscontainer .results .resultitems li .result-header-container .result-header-title,
