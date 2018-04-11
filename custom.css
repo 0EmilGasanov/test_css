@@ -63,40 +63,39 @@ body {
 #stored-resultscontainer .results .results-header .action-button,
 #stored-resultscontainer .results .results-header .action-menu, #resultscontainer .results .resultitems li .more-information .buttons a,
 #stored-resultscontainer .results .resultitems li .more-information .buttons a {
-  border: 1px solid #d0d1d5;
-  font-family: "Open Sans", sans-serif;
-  font-size: 11px;
+  border: 1px solid #ababab;
+  background-color: #f7f7f7;
+  font-family: "72",Arial,Helvetica,sans-serif;
+  font-size: font-size: 0.875rem;
   text-decoration: none;
-  color: #000;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  color: #346187;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  border-radius: 0.2rem;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box; }
-  #resultscontainer .results .results-header .action-button:active,
-  #resultscontainer .results .results-header .action-menu:active,
-  #stored-resultscontainer .results .results-header .action-button:active,
-  #stored-resultscontainer .results .results-header .action-menu:active, #resultscontainer .results .resultitems li .more-information .buttons a:active,
-  #stored-resultscontainer .results .resultitems li .more-information .buttons a:active {
-    border: 1px solid #a8a9b1;
-    background: #E9EAED;
-    -webkit-box-shadow: inset 0px 2px 1px rgba(204, 204, 204, 0.3);
-    -moz-box-shadow: inset 0px 2px 1px rgba(204, 204, 204, 0.3);
-    box-shadow: inset 0px 2px 1px rgba(204, 204, 204, 0.3); }
   #resultscontainer .results .results-header .action-button:hover,
   #resultscontainer .results .results-header .action-menu:hover,
   #stored-resultscontainer .results .results-header .action-button:hover,
   #stored-resultscontainer .results .results-header .action-menu:hover, #resultscontainer .results .resultitems li .more-information .buttons a:hover,
   #stored-resultscontainer .results .resultitems li .more-information .buttons a:hover {
-    border: 1px solid #c3c4c9;
-    background: #F7F7F7; }
+    background-color: rgb(235, 235, 235); }
+  #resultscontainer .results .results-header .action-button:active,
+  #resultscontainer .results .results-header .action-menu:active,
+  #stored-resultscontainer .results .results-header .action-button:active,
+  #stored-resultscontainer .results .results-header .action-menu:active, #resultscontainer .results .resultitems li .more-information .buttons a:active,
+  #stored-resultscontainer .results .resultitems li .more-information .buttons a:active {
+    border: 1px solid #427cac;
+    background-color: #427cac;
+    color: #FFF; }
   #resultscontainer .results .results-header .disabled.action-button,
   #resultscontainer .results .results-header .disabled.action-menu,
   #stored-resultscontainer .results .results-header .disabled.action-button,
   #stored-resultscontainer .results .results-header .disabled.action-menu, #resultscontainer .results .resultitems li .more-information .buttons a.disabled,
   #stored-resultscontainer .results .resultitems li .more-information .buttons a.disabled {
-    background: #eee; }
+    filter: opacity(.5);
+    background-color: #f7f7f7; }
 
 /* Match Results Container */
 #resultscontainer,
@@ -107,19 +106,19 @@ body {
 /*   Disabled "Actions" Button */
   #resultscontainer .results .results-header .action-menu-container.disabled .action-menu,
   #stored-resultscontainer .results .results-header .action-menu-container.disabled .action-menu {
-    background: #eee; }
+    filter: opacity(.5);
+    background-color: #f7f7f7; }
 
 /*   "Actions" Drop-Down Menu   */
   #resultscontainer .results .results-header ul.action-drop-down,
   #stored-resultscontainer .results .results-header ul.action-drop-down {
-    border: 1px solid #CCC;
+    border: 1px solid #ababab;
+    background-color: #f7f7f7;
     padding: 0;
-    -webkit-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.15);
-    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.15);
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    border-radius: 0.2rem;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
     background-clip: padding-box;
@@ -139,7 +138,7 @@ body {
         font-size: 11px; }
         #resultscontainer .results .results-header ul.action-drop-down li.action-list-item a:hover,
         #stored-resultscontainer .results .results-header ul.action-drop-down li.action-list-item a:hover {
-          background: #009fc3;
+          background-color: #427cac;
           color: #FFF; }
   
 /*   Opened Match */
@@ -303,27 +302,13 @@ div#tabs {
 
 /* Search Button */
 #submitbutton {
-  background: #e67e22;
-  border: none;
-  color: #FFF;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  padding: 7px 15px 7px 10px;
-  -webkit-border-radius: 2px !important;
-  -moz-border-radius: 2px !important;
-  border-radius: 2px !important;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding;
-  background-clip: padding-box;
-  -webkit-box-shadow: inset 0px -2px 0px 0px #bf6516;
-  -moz-box-shadow: inset 0px -2px 0px 0px #bf6516;
-  box-shadow: inset 0px -2px 0px 0px #bf6516;
-  -webkit-transition: background 0.2s;
-  -moz-transition: background 0.2s;
-  -o-transition: background 0.2s;
-  transition: background 0.2s; }
+  background-image: none;
+    background-color: rgb(84, 150, 205);
+    border-color: rgb(84, 150, 205);
+    color: #ffffff;
+    text-shadow: 0 0 0.125rem #000000; }
   #submitbutton:hover {
-    background: #f39c12; }
+    background: rgb(65, 138, 199); }
 
 /* Sorting Drop-Down */
 #sorting-container select {
@@ -451,10 +436,3 @@ div.breadcrumb-group {
   background-color: rgba(0, 156, 193, 0.75);
   min-height: 14px;
   padding-top: 4px; }
-
-
-<<<<<<< HEAD
-    background-position: -125px -386px; }
-=======
-    background-position: -125px -386px; }
->>>>>>> 66d418ac40b19c16d6c619bb97ac44d39da6d1af
