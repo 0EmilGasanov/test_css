@@ -33,7 +33,7 @@ ul.switch li.switch-on.selected{
 
 /* Background */
 body {
-  background-color: #E9EAED; }
+  background-color: #f7f7f7; }
 
 /* Header Panel */
 
@@ -248,7 +248,7 @@ body {
 /*     Opened Match Header */
     #resultscontainer .results .resultitems li .result-header-container .result-header-title,
     #stored-resultscontainer .results .resultitems li .result-header-container .result-header-title {
-      font-family: "Open Sans", sans-serif;
+      font-family: "72",Arial,Helvetica,sans-serif;
       font-size: 1rem; }
       #resultscontainer .results .resultitems li .result-header-container .result-header-title .highlighted,
       #stored-resultscontainer .results .resultitems li .result-header-container .result-header-title .highlighted {
