@@ -3,6 +3,17 @@ a, div.save-search-edit span.help{
   text-decoration: none;
 }
 
+ul.switch li.switch-on.selected{
+  background-color: #427cac;
+  border-color: #427cac;
+}
+
+.projectName{
+  background-color: #427cac;
+  color:white;
+}
+
+
 @import url("//fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,800&v=10.6.0&l=en");
 #header {
   zoom: 1;
@@ -153,6 +164,11 @@ body {
   #resultscontainer .results .resultitems li,
   #stored-resultscontainer .results .resultitems li {
     position: relative; }
+
+    #resultscontainer .results .resultitems li span.field-name,
+    #stored-resultscontainer .results .resultitems li span.field-name {
+      color: #346187;
+    }
     #resultscontainer .results .resultitems li.open,
     #stored-resultscontainer .results .resultitems li.open {
       background: #eff4f9;
