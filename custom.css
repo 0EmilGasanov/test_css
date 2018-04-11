@@ -100,7 +100,8 @@ body {
   #stored-resultscontainer .results .results-header .disabled.action-menu, #resultscontainer .results .resultitems li .more-information .buttons a.disabled,
   #stored-resultscontainer .results .resultitems li .more-information .buttons a.disabled {
     filter: opacity(.5);
-    background-color: #f7f7f7; }
+    background-color: #f7f7f7;
+    color: #346187; }
 
 /* Match Results Container */
 #resultscontainer,
@@ -112,7 +113,8 @@ body {
   #resultscontainer .results .results-header .action-menu-container.disabled .action-menu,
   #stored-resultscontainer .results .results-header .action-menu-container.disabled .action-menu {
     filter: opacity(.5);
-    background-color: #f7f7f7; }
+    background-color: #f7f7f7;
+    color: #346187; }
 
 /*   "Actions" Drop-Down Menu   */
   #resultscontainer .results .results-header ul.action-drop-down,
@@ -242,40 +244,41 @@ div#tabs {
   div#tabs #tabs-dropdown {
     z-index: 4; }
   div#tabs span.tab {
-    background: #009CC1;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 11px;
+    background: transparent;
+    font-family: "72",Arial,Helvetica,sans-serif;
+    font-size: 0.82rem;
+    font-style: normal;
+    margin:auto;
     border: none;
-    -webkit-transition: background 0.2s;
-    -moz-transition: background 0.2s;
-    -o-transition: background 0.2s;
-    transition: background 0.2s;
-    -webkit-border-radius: 2px 2px 0 0;
-    -moz-border-radius: 2px 2px 0 0;
-    border-radius: 2px 2px 0 0;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -o-transition: background 0.3s;
+    transition: background 0.3s;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
-    background-clip: padding-box;
+    background-clip: border-box;
     height: 20px; }
     div#tabs span.tab .tab-name,
     div#tabs span.tab .tab-count-wrapper {
-      color: #FFF; }
+      color: #333333; }
     div#tabs span.tab:hover {
-      background: #00b1db; }
+      background: #fafafa; }
       div#tabs span.tab:hover.fading a:after {
         background: transparent;
-        background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #00b1db 100%);
-        background: -o-linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #00b1db 100%);
-        background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #00b1db 100%);
-        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #00b1db 100%); }
+        background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #fafafa 100%);
+        background: -o-linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #fafafa 100%);
+        background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #fafafa 100%);
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #fafafa 100%); }
 
     /*   Selected Tab */
     div#tabs span.tab.active {
       border: 1px solid #d0d1d5;
       border-bottom: none;
       height: 20px;
-      background: #eef7fc; }
+      background: #fafafa; }
       div#tabs span.tab.active.fading a:after {
         background: transparent;
         background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #eef7fc 100%);
@@ -286,13 +289,14 @@ div#tabs {
         background: #F5F7F7; }
       div#tabs span.tab.active .tab-name,
       div#tabs span.tab.active .tab-count-wrapper {
-        color: #000; }
+        color: #000;
+        font-weight: 600 }
     div#tabs span.tab.fading a:after {
       background: transparent;
-      background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #009CC1 100%);
-      background: -o-linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #009CC1 100%);
-      background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #009CC1 100%);
-      background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #009CC1 100%); }
+      background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #eef7fc 100%);
+      background: -o-linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #eef7fc 100%);
+      background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #eef7fc 100%);
+      background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #eef7fc 100%); }
 
 /* Search Button */
 #submitbutton {
