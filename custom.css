@@ -132,10 +132,11 @@ body {
       #stored-resultscontainer .results .results-header ul.action-drop-down li.action-list-item a {
         display: block;
         padding: 0 10px;
-        line-height: 24px;
+        line-height: 1.8rem;
         color: #000;
-        font-family: "Open Sans", sans-serif;
-        font-size: 11px; }
+        font-family: "72",Arial,Helvetica,sans-serif;
+        font-size: font-size: 0.875rem;
+        text-decoration: none; }
         #resultscontainer .results .results-header ul.action-drop-down li.action-list-item a:hover,
         #stored-resultscontainer .results .results-header ul.action-drop-down li.action-list-item a:hover {
           background-color: #427cac;
@@ -309,6 +310,10 @@ div#tabs {
     text-shadow: 0 0 0.125rem #000000; }
   #submitbutton:hover {
     background: rgb(65, 138, 199); }
+  #submitbutton:active {
+    background: #91c8f6;
+    border-color: #91c8f6;
+    text-shadow: none; }
 
 /* Sorting Drop-Down */
 #sorting-container select {
