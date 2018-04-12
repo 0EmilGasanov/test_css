@@ -13,6 +13,12 @@ ul.switch li.switch-on.selected{
   color:white;
 }
 
+#projects-link>div{
+  color: #346187;
+  font-family: "72",Arial,Helvetica,sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
 
 @import url("//fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,800&v=10.6.0&l=en");
 #header {
@@ -384,6 +390,13 @@ div#tabs {
     width: 95%; }
   #sidebar div.row.tagcloud-input input[type=text] {
     width: 95%; }
+
+/* Radio Button Labels */
+#sidebar .radiobuttons label{
+  font-family: "72",Arial,Helvetica,sans-serif;
+  font-size: 0.7rem;
+}
+
 
 /* Search Input Field */
 #searchbox .outlined {
