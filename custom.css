@@ -29,9 +29,9 @@ ul.switch li.switch-on.selected{
   font-weight: 600;
 }
 
-
-
-
+.condition-REQUIRED, .condition-REQUIRED div{
+	background:white;
+}
 
 
 /* Match Results Container Buttons */
