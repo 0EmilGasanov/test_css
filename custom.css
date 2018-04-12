@@ -1,3 +1,12 @@
+#header .header-logo{
+  display: none;
+}
+
+/* Background */
+body {
+  background-color: #f7f7f7; 
+}
+
 a, div.save-search-edit span.help{
   color: #346187;
   text-decoration: none;
@@ -20,63 +29,9 @@ ul.switch li.switch-on.selected{
   font-weight: 600;
 }
 
-@import url("//fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,800&v=10.6.0&l=en");
-#header {
-  zoom: 1;
-  display: block;
-  height: 1%;
-  clear: both; }
-  #header:before, #header:after {
-    content: "";
-    display: table; }
-  #header:after {
-    clear: both;
-    content: ".";
-    display: block;
-    visibility: hidden;
-    line-height: 0;
-    height: 0; }
 
-/* Background */
-body {
-  background-color: #f7f7f7; }
 
-/* Header Panel */
 
-/* Header Bottom Separator */
-#header {
-  border-bottom: 1px solid #d0d1d5;
-  background-color: #FFF;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
-
-/*   Header Background */
-  #header div.header-logo {
-    background: #FFF;
-    background-position: 50% 50%; }
-
-/* Logo */
-  #header h1 {
-    height: 35px;
-    background: url("../img/match-tk-large.png") 0 50% no-repeat;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=$logo-url, sizingMethod='scale');
-    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=$logo-url, sizingMethod='scale')";
-    background-size: contain;
-    margin-top: 7px; }
-
-/*   Header Actions   */
-  #header ul {
-    line-height: 50px;
-    margin-top: 0; }
-    #header ul li a {
-      color: #009CC1;
-      font-family: "Open Sans", sans-serif;
-      font-weight: 600;
-      font-size: 11px; }
-
-#header-img {
-  display: none !important; }
 
 
 /* Match Results Container Buttons */
