@@ -265,7 +265,7 @@ div#tabs {
     font-size: 0.82rem;
     font-style: normal;
     margin:auto;
-    border: none;
+    border: 1px solid #d0d1d5;
     -webkit-transition: background 0.3s;
     -moz-transition: background 0.3s;
     -o-transition: background 0.3s;
@@ -317,15 +317,15 @@ div#tabs {
 /* Search Button */
 #submitbutton {
   background-image: none;
-    background-color: rgb(84, 150, 205);
-    border-color: rgb(84, 150, 205);
+    background-color: #427cac;
+    border-color: #427cac;
     color: #ffffff;
     text-shadow: 0 0 0.125rem #000000; }
   #submitbutton:hover {
     background: rgb(65, 138, 199); }
   #submitbutton:active {
-    background: #91c8f6;
-    border-color: #91c8f6;
+    background: #346187;
+    border-color: #346187;
     text-shadow: none; }
 
 /* Sorting Drop-Down */
@@ -340,7 +340,7 @@ div#tabs {
   line-height: 1.5rem;
   border: 1px solid #bfbfbf !important;
   padding: 4px 4px;
-  background-color: #FFF;
+  background-color: #FFF !important;
   font-family: "72",Arial,Helvetica,sans-serif;
   font-size: 0.875rem;
   -webkit-border-radius: 3px;
