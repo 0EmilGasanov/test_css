@@ -4,7 +4,7 @@
 
 /* Background */
 body {
-  background-color: #white; 
+  background-color: white; 
 }
 
 a, div.save-search-edit span.help{
@@ -123,7 +123,7 @@ ul.switch li.switch-on.selected{
         line-height: 1.8rem;
         color: #000;
         font-family: "72",Arial,Helvetica,sans-serif;
-        font-size: font-size: 0.875rem;
+        font-size: 0.875rem;
         text-decoration: none; }
         #resultscontainer .results .results-header ul.action-drop-down li.action-list-item a:hover,
         #stored-resultscontainer .results .results-header ul.action-drop-down li.action-list-item a:hover {
