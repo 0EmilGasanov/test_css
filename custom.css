@@ -140,6 +140,9 @@ ul.switch li.switch-on.selected{
     #stored-resultscontainer .results .resultitems li span.field-name {
       color: #346187;
     }
+    ul.resultitems li span.highlighted{
+      color:#346187;
+    }
     #resultscontainer .results .resultitems li.open,
     #stored-resultscontainer .results .resultitems li.open {
       background: #eff4f9;
