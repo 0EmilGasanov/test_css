@@ -17,6 +17,11 @@ ul.switch li.switch-on.selected{
   border-color: #427cac;
 }
 
+.project-type-switches span.active{
+  background-color: #346187;
+  border-color: #346187;
+}
+
 .tags>span{
   background-color: #427cac;
 }
