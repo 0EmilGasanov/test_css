@@ -4,7 +4,7 @@
 
 /* Background */
 body {
-  background-color: #f7f7f7; 
+  background-color: #white; 
 }
 
 a, div.save-search-edit span.help{
@@ -78,14 +78,14 @@ ul.switch li.switch-on.selected{
 /* Match Results Container */
 #resultscontainer,
 #stored-resultscontainer {
-  background: #F5F7F7;
+  background: #eff4f9;
   border: 1px solid #d0d1d5; }
 
 /*   Disabled "Actions" Button */
   #resultscontainer .results .results-header .action-menu-container.disabled .action-menu,
   #stored-resultscontainer .results .results-header .action-menu-container.disabled .action-menu {
     filter: opacity(.5);
-    background-color: #f7f7f7;
+    background-color: #eff4f9;
     color: #346187; }
 
 /*   "Actions" Drop-Down Menu   */
@@ -255,7 +255,7 @@ div#tabs {
       border: 1px solid #d0d1d5;
       border-bottom: none;
       height: 20px;
-      background: #F5F7F7; }
+      background: #eff4f9; }
       div#tabs span.tab.active.fading a:after {
         background: transparent;
         background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #eef7fc 100%);
@@ -263,7 +263,7 @@ div#tabs {
         background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #eef7fc 100%);
         background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #eef7fc 100%); }
       div#tabs span.tab.active:hover {
-        background: #F5F7F7; }
+        background: #eff4f9; }
       div#tabs span.tab.active .tab-name,
       div#tabs span.tab.active .tab-count-wrapper {
         color: #000;
@@ -314,7 +314,7 @@ div#tabs {
 /* Sidebar */
 #sidebarWrapper {
   margin-top:2px;
-  background: #F5F7F7;
+  background: #eff4f9;
   padding: 10px;
   border: 1px solid #bfbfbf;
   -webkit-border-radius: 5px;
@@ -367,7 +367,7 @@ div#tabs {
 
 /* Search Tag Container */
 #breadcrumbs-container {
-  background: #F5F7F7;
+  background: #eff4f9;
   border: 1px solid #bfbfbf;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
