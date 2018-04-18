@@ -452,3 +452,19 @@ div.breadcrumb-group {
   background-color: #427cac;
   min-height: 14px;
   padding-top: 4px; }
+
+/* SPRITE */
+#matchWithFileForm{
+  background: url(https://rawgit.com/0EmilGasanov/test_css/master/sprite.png) -10px -1129px;
+}
+
+.facet .show-cloud, .facet .hide-cloud{
+  background-image: url(https://rawgit.com/0EmilGasanov/test_css/master/sprite.png);
+}
+
+.tagcloud .tagcloud-close a{
+  background: url(https://rawgit.com/0EmilGasanov/test_css/master/sprite.png) -9px -1100px;
+}
+
+
+
