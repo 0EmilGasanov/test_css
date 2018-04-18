@@ -16,6 +16,9 @@ ul.switch li.switch-on.selected{
   background-color: #427cac;
   border-color: #427cac;
 }
+ul.switch li.switch-on.selected, ul.switch li.switch-off {
+  border-radius: 2px;
+}
 
 .project-type-switches span.active{
   background-color: #346187;
@@ -298,6 +301,7 @@ div#tabs {
   background-image: none;
     background-color: #427cac;
     border-color: #427cac;
+    border-radius: 2px;
     color: #ffffff;
     text-shadow: 0 0 0.125rem #000000; }
   #submitbutton:hover {
@@ -419,6 +423,10 @@ div.breadcrumb-group {
   div.breadcrumb-group .name-text{
     color:white;
   }
+
+#tagcloud-jobtitles{
+  border-radius:2px;
+}
 
 /* Loading Icon */
 #content #spinner {
