@@ -391,7 +391,7 @@ div#tabs {
 /* Search Tag Container */
 #breadcrumbs-container {
   background: #eff4f9;
-  border: 1px solid #bfbfbf;
+  border: 1px solid #bfbfbf !important;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
