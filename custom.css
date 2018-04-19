@@ -467,5 +467,8 @@ div.breadcrumb-group {
   background: url(https://rawgit.com/0EmilGasanov/test_css/master/sprite.png) -9px -1100px;
 }
 
+#breadcrumbs-buttons-container a, #query-info-buttons-container a{
+  background:url(https://rawgit.com/0EmilGasanov/test_css/master/sprite.png) -9px -1100px;
+}
 
 
